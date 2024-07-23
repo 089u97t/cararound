@@ -1051,3 +1051,39 @@ div {
 .hero-content .text.fade-in-right, .hero-content .graphic.fade-in-left, .animated-button.fade-in-above {
   opacity: 1;
 } */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.about-section {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.about-section h1 {
+  font-size: 2.5em; /* Responsive size */
+}
+
+.about-section p {
+  font-size: 1.2em; /* Responsive size */
+  margin-bottom: 10px;
+}
+
+.animated-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.animated-button:hover {
+  border: 2px solid #000; /* Replace color with your chosen hover effect */
+}
